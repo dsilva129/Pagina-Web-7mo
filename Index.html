@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Responsive Site</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Index.html">DIEGO SILVA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#Inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="test2.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel Funcion  -->
+  <div id="Carruselfotos" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="pics/planet-1702788_1280.jpg" class="imgfluid" alt="FTO PLANETA">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Bienvenidos a mi Portal</h5>
+          <p>Tu puerta a buen contenido</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="pics/abstract-8884025_1280.png" class="imgfluid" alt="FOTO ABSTRACTA">      
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Descubre mas</h5>
+          <p>Explorando lo que ofrecemos.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="pics/lines-1867838_1280.jpg" class="imgfluid" alt="FOTO MUROLINEAS">      
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Diseño Digital</h5>
+          <p>Todo en edicion de medios digitales</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#Carruselfotos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#Carruselfotos" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- Tarjetas -->
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col">
+        <div class="card h-100">
+          <img src="pics/bridge-7779222_1280.jpg" class="card-img-top" alt="Puente">
+          <div class="card-body">
+            <h5 class="card-title">Un Enlace Entre Orillas</h5>
+            <p class="card-text">Este majestuoso puente conecta más que dos puntos: une comunidades y sueños.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="pics/chongqing-7094955_1280.jpg" class="card-img-top" alt="Ciudad">
+          <div class="card-body">
+            <h5 class="card-title">Un Retrato Urbano</h5>
+            <p class="card-text">Explora la mezcla perfecta de modernidad y tradición.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="pics/pedestrians-1853552_1280.jpg" class="card-img-top" alt="Peatones">
+          <div class="card-body">
+            <h5 class="card-title">Donde los Pasos Convergen</h5>
+            <p class="card-text">SDescubre la belleza de los trayectos cotidianos de la vida urbana.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
