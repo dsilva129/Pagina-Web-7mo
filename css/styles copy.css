@@ -1,11 +1,6 @@
 .carousel-item img {
     object-fit: cover; /* cover es para que la imagen llene el espacio sin escalarse */
-    height: 400px; /* tamaño maximo de caja */
+    height: 200px; /* tamaño maximo de caja */
     width: 100%; /* Een este caso con porcentaje de la caja a ocupar  */
     display: block; /* para que sea un solo bloque y respete las dimensiones de la caja*/
-  }
-
-  .col {
-    display: flex;
-    justify-content: center; /* Asegura que las tarjetas estén centradas */
   }
